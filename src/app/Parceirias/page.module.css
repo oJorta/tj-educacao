@@ -1,0 +1,28 @@
+.mainContent {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    width: 70%;
+    gap: 1em;
+    margin-left: 200px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.mainContent h1{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.mainContent h2{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mainContent .box {
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+}
