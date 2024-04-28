@@ -8,6 +8,7 @@ import { Dropdown } from "primereact/dropdown";
 
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
+import Link from "next/link";
 
 export default function Home() {
   const [cities, setCities] = useState(Object.keys(data));
@@ -32,7 +33,7 @@ export default function Home() {
   }, [selectedCity, selectedYear]);
 
   return (
-    <div className="w-full max-w-[90%] my-0 mx-auto">
+    <>
       <Dropdown
         value={selectedCity}
         onChange={(e) => setSelectedCity(e.value)}
@@ -49,14 +50,20 @@ export default function Home() {
 
       <div>
         <DataTable value={cityData || []} tableStyle={{ minWidth: "50rem" }}>
-          {cityData && Object.keys(cityData).length > 0 &&
+          {cityData &&
+            Object.keys(cityData).length > 0 &&
             Object.keys(cityData[0]).map((key, i) => (
-              <Column key={i} field={key} header={dict_categoria[key]?.['nome'] || key} pt={{
-                bodyCell: 'whitespace-pre-line',
-              }}/>
+              <Column
+                key={i}
+                field={key}
+                header={dict_categoria[key]?.["nome"] || key}
+                pt={{
+                  bodyCell: "whitespace-pre-line",
+                }}
+              />
             ))}
         </DataTable>
       </div>
-    </div>
+    </>
   );
 }

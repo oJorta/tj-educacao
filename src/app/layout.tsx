@@ -4,6 +4,9 @@ import "./globals.css";
 
 import "primereact/resources/themes/lara-light-teal/theme.css";
 
+import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import Header from "@/components/Header";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -18,7 +21,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Header/>
+        
+        <MaxWidthWrapper>
+          {children}
+        </MaxWidthWrapper>
+      </body>
     </html>
   );
 }
