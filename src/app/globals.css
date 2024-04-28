@@ -4,7 +4,9 @@
 
 :root {
 }
+
 body {
+  width: 100vw;
 }
 
 @layer utilities {
