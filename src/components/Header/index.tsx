@@ -7,16 +7,16 @@ export default function Header() {
     <header className="flex justify-between items-center px-32 py-8 shadow-md">
       <ul className="flex gap-28 text-base">
         <li>
-          <Link href={"/Sobre"}>SOBRE</Link>
+          <Link href={"/sobre"}>SOBRE</Link>
         </li>
         <li>
           <Link href={"/mapa"}>MAPA DO SITE</Link>
         </li>
         <li>
-          <Link href={"/Equipe"}>Equipe</Link>
+          <Link href={"/equipe"}>EQUIPE</Link>
         </li>
         <li>
-          <Link href={"/Parceirias"}>Parceirias</Link>
+          <Link href={"/parcerias"}>PARCERIAS</Link>
         </li>
       </ul>
 

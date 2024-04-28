@@ -5,7 +5,7 @@ import Image from "next/image";
 import fapesbImage from "../../assets/fapesb.jpeg";
 import DCIEImage from "../../assets/DCIE.jpg";
 
-export default function Home() {
+export default function Parcerias() {
     return (
         <main className={styles.mainContent}>
             <h1>Parceiros</h1>
