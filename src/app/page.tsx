@@ -13,15 +13,6 @@ import { Column } from 'primereact/column';
 import { GiWhiteBook } from "react-icons/gi";
 import { IoIosMenu } from "react-icons/io";
 
-type DictCategoria = {
-  [key: string]: {
-    nome: string;
-    categoria: {
-      [key: string]: string;
-    };
-  };
-};
-
 export default function Home() {
   const [cities, setCities] = useState(Object.keys(cityNames));
   const [selectedCity, setSelectedCity] = useState<string>('Itabuna');
@@ -49,13 +40,12 @@ export default function Home() {
 
       for (let i = 0; i < keys.length; i++) {
         dataArray.push({
-          indicador: dict_categoria[keys[i]]?.['nome'] || keys[i],
+          indicador: dict_categoria[keys[i] as keyof typeof dict_categoria]?.['nome'] || keys[i],
           estatísticas: Object.entries(cityDataOnYear[keys[i]]).map(([key, value]) => key + ": " + value)
           .join("\n"),
         })
       }
 
-      console.log(dataArray);
       setCityData(dataArray);
     }
   }, [selectedCity, selectedYear]);
@@ -114,14 +104,14 @@ export default function Home() {
             field='indicador'
             header='INDICADOR'
             pt={{
-              bodyCell: "whitespace-pre-line",
+              bodyCell: { className: 'whitespace-pre-line' },
             }}
           />
           <Column
             field='estatísticas'
             header='ESTATÍSTICAS'
             pt={{
-              bodyCell: "whitespace-pre-line",
+              bodyCell: { className: 'whitespace-pre-line' },
             }}
           />
         </DataTable>
