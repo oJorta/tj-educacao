@@ -29,7 +29,7 @@ export default function Home() {
     }
 
     if (selectedCity && selectedYear) {
-      let cityDataOnYear = data[selectedCity as keyof typeof data][selectedYear as keyof typeof data[keyof typeof data]];
+      let cityDataOnYear = data[selectedCity as keyof typeof data]?.[selectedYear as keyof typeof data[keyof typeof data]] || null;
       let keys = cityDataOnYear ? Object.keys(cityDataOnYear) : null;
       let dataArray = []
 
