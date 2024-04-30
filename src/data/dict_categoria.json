@@ -494,8 +494,7 @@
         }
     },
     "QT_FUNCIONARIOS": {
-        "nome": "Total de funcionários da escola (inclusive profissionais escolares em sala de aula)",
-	"valor": 0
+        "nome": "Total de funcionários da escola (inclusive profissionais escolares em sala de aula)"
     },
     "IN_PROF_ADMINISTRATIVO": {
         "nome": "Profissionais que atuam na escola - Auxiliares de secretaria ou auxiliares administrativos, atendentes",
@@ -505,8 +504,7 @@
         }
     },
     "QT_PROF_ADMINISTRATIVO": {
-        "nome": "Quantidade de profissionais que atuam na escola - Auxiliares de secretaria ou auxiliares administrativos, atendentes",
-	"valor": 0
+        "nome": "Quantidade de profissionais que atuam na escola - Auxiliares de secretaria ou auxiliares administrativos, atendentes"
     },
     "IN_PROF_SERVICOS_GERAIS": {
         "nome": "Profissionais que atuam na escola - Auxiliar de serviços gerais, porteiro(a), zelador(a), faxineiro(a), horticultor(a), jardineiro(a)",
@@ -516,8 +514,7 @@
         }
     },
     "QT_PROF_SERVICOS_GERAIS": {
-        "nome": "Quantidade de profissionais que atuam na escola - Auxiliar de serviços gerais, porteiro(a), zelador(a), faxineiro(a), horticultor(a), jardineiro(a)",
-	"valor": 0
+        "nome": "Quantidade de profissionais que atuam na escola - Auxiliar de serviços gerais, porteiro(a), zelador(a), faxineiro(a), horticultor(a), jardineiro(a)"
     },
     "IN_PROF_BIBLIOTECARIO": {
         "nome": "Profissionais que atuam na escola - Bibliotecário(a), auxiliar de biblioteca ou monitor(a) da sala de leitura",
@@ -527,8 +524,7 @@
         }
     },
     "QT_PROF_BIBLIOTECARIO": {
-        "nome": "Quantidade de profissionais que atuam na escola - Bibliotecário(a), auxiliar de biblioteca ou monitor(a) da sala de leitura",
-	"valor": 0
+        "nome": "Quantidade de profissionais que atuam na escola - Bibliotecário(a), auxiliar de biblioteca ou monitor(a) da sala de leitura"
     },
     "IN_PROF_COORDENADOR": {
         "nome": "Profissionais que atuam na escola - Coordenador(a) de turno/disciplina",
@@ -538,8 +534,7 @@
         }
     },
     "QT_PROF_COORDENADOR": {
-        "nome": "Quantidade de profissionais que atuam na escola - Coordenador(a) de turno/disciplina",
-	"valor": 0
+        "nome": "Quantidade de profissionais que atuam na escola - Coordenador(a) de turno/disciplina"
     },
     "IN_PROF_PEDAGOGIA": {
         "nome": "Profissionais que atuam na escola - Profissionais de apoio e supervisão pedagógica: pedagogo(a), coordenador(a) pedagógico(a), orientador(a) educacional, supervisor(a) escolar e coordenador(a) de área de ensino",
@@ -549,8 +544,7 @@
         }
     },
     "QT_PROF_PEDAGOGIA": {
-        "nome": "Quantidade de profissionais que atuam na escola - Profissionais de apoio e supervisão pedagógica: pedagogo(a), coordenador(a) pedagógico(a), orientador(a) educacional, supervisor(a) escolar e coordenador(a) de área de ensino",
-	"valor": 0
+        "nome": "Quantidade de profissionais que atuam na escola - Profissionais de apoio e supervisão pedagógica: pedagogo(a), coordenador(a) pedagógico(a), orientador(a) educacional, supervisor(a) escolar e coordenador(a) de área de ensino"
     },
     "IN_PROF_SECRETARIO": {
         "nome": "Profissionais que atuam na escola - Secretário(a) escolar",
@@ -560,8 +554,7 @@
         }
     },
     "QT_PROF_SECRETARIO": {
-        "nome": "Quantidade de profissionais que atuam na escola - Secretário(a) escolar",
-	"valor": 0
+        "nome": "Quantidade de profissionais que atuam na escola - Secretário(a) escolar"
     },
     "IN_PROF_MONITORES": {
         "nome": "Profissionais que atuam na escola - Técnicos(as), monitores(as), supervisores(as) ou auxiliares de laboratório(s), de apoio a tecnologias educacionais ou em multimeios/multimídias eletrônico/digitais",
@@ -571,8 +564,7 @@
         }
     },
     "QT_PROF_MONITORES": {
-        "nome": "Quantidade de profissionais que atuam na escola - Técnicos(as), monitores(as), supervisores(as) ou auxiliares de laboratório(s), de apoio a tecnologias educacionais ou em multimeios/multimídias eletrônico/digitais",
-	"valor": 0
+        "nome": "Quantidade de profissionais que atuam na escola - Técnicos(as), monitores(as), supervisores(as) ou auxiliares de laboratório(s), de apoio a tecnologias educacionais ou em multimeios/multimídias eletrônico/digitais"
     },
     "IN_PROF_GESTAO": {
         "nome": "Profissionais que atuam na escola - Vice-diretor(a) ou diretor(a) adjunto(a), profissionais responsáveis pela gestão administrativa e/ou financeira",
@@ -582,8 +574,7 @@
         }
     },
     "QT_PROF_GESTAO": {
-        "nome": "Quantidade de profissionais que atuam na escola - Vice-diretor(a) ou diretor(a) adjunto(a), profissionais responsáveis pela gestão administrativa e/ou financeira",
-	"valor": 0
+        "nome": "Quantidade de profissionais que atuam na escola - Vice-diretor(a) ou diretor(a) adjunto(a), profissionais responsáveis pela gestão administrativa e/ou financeira"
     },
     "IN_ALIMENTACAO": {
         "nome": "Alimentação escolar para os alunos - PNAE/FNDE",
@@ -670,59 +661,45 @@
         }
     },
     "QT_MAT_INF": {
-        "nome": "Número de Matrículas na Educação Infantil",
-	"valor": 0
+        "nome": "Número de Matrículas na Educação Infantil"
     },
     "QT_MAT_INF_CRE": {
-        "nome": "Número de Matrículas na Educação Infantil - Creche",
-	"valor": 0
+        "nome": "Número de Matrículas na Educação Infantil - Creche"
     },
     "QT_MAT_INF_PRE": {
-        "nome": "Número de Matrículas na Educação Infantil - Pré-Escola",
-	"valor": 0
+        "nome": "Número de Matrículas na Educação Infantil - Pré-Escola"
     },
     "QT_MAT_BAS_0_3": {
-        "nome": "Número de Matrículas na Educação Básica - Até 3 anos de idade",
-	"valor": 0
+        "nome": "Número de Matrículas na Educação Básica - Até 3 anos de idade"
     },
     "QT_MAT_BAS_4_5": {
-        "nome": "Número de Matrículas na Educação Básica - Entre 4 e 5 anos de idade",
-	"valor": 0
+        "nome": "Número de Matrículas na Educação Básica - Entre 4 e 5 anos de idade"
     },
     "QT_MAT_INF_INT": {
-        "nome": "Número de Matrículas na Educação Infantil - Tempo Integral",
-	"valor": 0
+        "nome": "Número de Matrículas na Educação Infantil - Tempo Integral"
     },
     "QT_MAT_INF_CRE_INT": {
-        "nome": "Número de Matrículas na Educação Infantil - Creche - Tempo Integral",
-	"valor": 0
+        "nome": "Número de Matrículas na Educação Infantil - Creche - Tempo Integral"
     },
     "QT_MAT_INF_PRE_INT": {
-        "nome": "Número de Matrículas na Educação Infantil - Pré-Escola - Tempo Integral",
-	"valor": 0
+        "nome": "Número de Matrículas na Educação Infantil - Pré-Escola - Tempo Integral"
     },
     "QT_DOC_INF": {
-        "nome": "Número de Docentes da Educação Infantil",
-	"valor": 0
+        "nome": "Número de Docentes da Educação Infantil"
     },
     "QT_DOC_INF_CRE": {
-        "nome": "Número de Docentes da Educação Infantil - Creche",
-	"valor": 0
+        "nome": "Número de Docentes da Educação Infantil - Creche"
     },
     "QT_DOC_INF_PRE": {
-        "nome": "Número de Docentes da Educação Infantil - Pré-Escola",
-	"valor": 0
+        "nome": "Número de Docentes da Educação Infantil - Pré-Escola"
     },
     "QT_TUR_INF": {
-        "nome": "Número de Turmas da Educação Infantil",
-	"valor": 0
+        "nome": "Número de Turmas da Educação Infantil"
     },
     "QT_TUR_INF_CRE": {
-        "nome": "Número de Turmas da Educação Infantil - Creche",
-	"valor": 0
+        "nome": "Número de Turmas da Educação Infantil - Creche"
     },
     "QT_TUR_INF_PRE": {
-        "nome": "Número de Turmas da Educação Infantil - Pré-Escola",
-	"valor": 0
+        "nome": "Número de Turmas da Educação Infantil - Pré-Escola"
     }
 }
