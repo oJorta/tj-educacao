@@ -12,7 +12,7 @@ const cities = {
     "Ilhéus": "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJdyodez8KOQcR6kMZQCBZV_w&key=AIzaSyDlaKPNqvGkrlQ8qMj4kfFerxgctjGiGw0",
     "Itabuna": "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ--IExB6rOQcRZysfWJNymsk&key=AIzaSyDlaKPNqvGkrlQ8qMj4kfFerxgctjGiGw0",
     "Itacaré": "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ89i6kfo1OQcRNunP8YjtEjQ&key=AIzaSyDlaKPNqvGkrlQ8qMj4kfFerxgctjGiGw0",
-    "Itajú do Colônia": "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJhdlKDVYXOAcRCORF3GYPeiM&key=AIzaSyDlaKPNqvGkrlQ8qMj4kfFerxgctjGiGw0",
+    "Itaju do Colônia": "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJhdlKDVYXOAcRCORF3GYPeiM&key=AIzaSyDlaKPNqvGkrlQ8qMj4kfFerxgctjGiGw0",
     "Itajuípe": "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJt5SoiIT-OAcR3mZpExicn8w&key=AIzaSyDlaKPNqvGkrlQ8qMj4kfFerxgctjGiGw0",
     "Itapé": "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJvzM4VedROAcRzZuTAPZ5eOs&key=AIzaSyDlaKPNqvGkrlQ8qMj4kfFerxgctjGiGw0",
     "Itapitanga": "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ_fCT0PnpOAcRj26pxUj412A&key=AIzaSyDlaKPNqvGkrlQ8qMj4kfFerxgctjGiGw0",
