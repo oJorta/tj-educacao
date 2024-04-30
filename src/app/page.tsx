@@ -41,8 +41,8 @@ export default function Home() {
       for (let i = 0; i < keys.length; i++) {
         dataArray.push({
           indicador: dict_categoria[keys[i] as keyof typeof dict_categoria]?.['nome'] || keys[i],
-          estatísticas: Object.entries(cityDataOnYear[keys[i]]).map(([key, value]) => key + ": " + value)
-          .join("\n"),
+          estatísticas: Object.entries(cityDataOnYear[keys[i] as keyof typeof cityDataOnYear] as Record<string, number>).map(([key, value]) => key + ": " + value)
+            .join("\n"),
         })
       }
 
