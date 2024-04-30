@@ -10,7 +10,7 @@ export default function Header() {
           <Link href={"/sobre"}>SOBRE</Link>
         </li>
         <li>
-          <Link href={"/mapa"}>MAPA DO SITE</Link>
+          <Link href={"/"}>OBSERVATÓRIO</Link>
         </li>
         <li>
           <Link href={"/equipe"}>EQUIPE</Link>
@@ -20,14 +20,14 @@ export default function Header() {
         </li>
       </ul>
 
-      <div className="flex items-center gap-4 border-[2px] border-black rounded-xl px-2 py-1">
+      {/* <div className="flex items-center gap-4 border-[2px] border-black rounded-xl px-2 py-1">
         <p className="text-sm">ACESSIBILIDADE</p>
         <button>A+</button>
         <button>A-</button>
         <button>
           <VscColorMode />
         </button>
-      </div>
+      </div> */}
     </header>
   );
 }

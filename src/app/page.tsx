@@ -53,9 +53,7 @@ export default function Home() {
   return (
     <>
       <header className="flex justify-between items-center mt-8">
-        <GiWhiteBook size={36}/>
-        <h1 className="text-2xl font-semibold text-center px-8">OBSERVATÓRIO DA EDUCAÇÃO INFANTIL</h1>
-        <IoIosMenu size={36}/>
+        <h1 className="text-2xl font-semibold text-center px-8 mx-auto my-0">OBSERVATÓRIO DA EDUCAÇÃO INFANTIL</h1>
       </header>
 
       <section className="flex flex-col items-center mt-8">
